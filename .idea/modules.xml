@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auto_draft_android.iml" filepath="$PROJECT_DIR$/auto_draft_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devless/devless.iml" filepath="$PROJECT_DIR$/devless/devless.iml" />
       <module fileurl="file://$PROJECT_DIR$/devless/devless.iml" filepath="$PROJECT_DIR$/devless/devless.iml" />
       <module fileurl="file://$PROJECT_DIR$/eitTeamCreator.iml" filepath="$PROJECT_DIR$/eitTeamCreator.iml" />
     </modules>

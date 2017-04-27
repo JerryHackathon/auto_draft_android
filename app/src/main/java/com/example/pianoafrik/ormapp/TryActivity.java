@@ -274,7 +274,7 @@ public class TryActivity extends AppCompatActivity {
                 Toast.makeText(context, "db:loaded:successfully", Toast.LENGTH_LONG).show();
 
                 //Create an instance of the custom adapter
-                PhoneNumberAdapter adapter = new PhoneNumberAdapter(TryActivity.this, 0, names);
+                PhoneNumberAdapter adapter = new PhoneNumberAdapter(TryActivity.this, 0, newnames);
                 listView.setAdapter(adapter);
             }
         });
@@ -297,7 +297,7 @@ public class TryActivity extends AppCompatActivity {
         devless.edit(Globall.AUTODRAFTTABLE, changes, "2", new Devless.RequestResponse() {
             @Override
             public void OnSuccess(String s) {
-               // Toast.makeText(context, "updated successfully", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "updated successfully", Toast.LENGTH_LONG).show();
             }
         });
     }
